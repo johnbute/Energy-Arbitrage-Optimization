@@ -1,0 +1,13 @@
+# Python 3.10 - versions installed in .venv
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+matplotlib==3.10.9
+pytz==2026.3.post1
+cvxpy==1.7.5
+clarabel==0.11.1
+scs==3.3.1
+diffcp==1.1.9
+cvxpylayers==0.1.9
+torch==2.14.0
+ipykernel==7.3.0

@@ -1,0 +1,15 @@
+1. Load 1-minute data-center demand
+2. Convert demand to hourly data
+3. Load ERCOT DAM Hourly LMP data
+4. Select one ERCOT location
+5. Align price and demand by date
+6. Create N daily profiles ξ_i = (p_i, d_i)
+
+7. For each battery capacity B:
+       for each day i:
+           solve battery optimization
+           obtain Q(B, ξ_i)
+
+       C_N(B) = average of all Q(B, ξ_i)
+
+8. Plot B vs C_N(B)
